@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แจ้งลาแก๊ง - FiveM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>แจ้งลาแก๊ง - FiveM</h1>
+        <form id="leaveForm">
+            <input type="text" id="name" placeholder="ชื่อในเกม" required>
+            <input type="text" id="reason" placeholder="เหตุผลที่ลา" required>
+            <input type="date" id="date" required>
+            <button type="submit">ส่งคำขอลา</button>
+        </form>
+        <a href="list.html">ดูรายการลา</a>
+    </div>
+
+    <script src="firebase-config.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
